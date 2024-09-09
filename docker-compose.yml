@@ -1,0 +1,6 @@
+services:
+  server:
+    image: registry.dqwang.space/dqwang/ubuntu-schroot:24.04
+    build: .
+    command: ["bash"]
+    priviledged: true
